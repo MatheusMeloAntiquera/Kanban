@@ -11,6 +11,14 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 Vue.use(BootstrapVue);
 
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faPen, faWindowClose } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
+library.add(faPen, faWindowClose );
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+
 Vue.config.productionTip = false;
 
 new Vue({
