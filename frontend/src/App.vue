@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <b-container >
+    <b-container>
       <router-view/>
     </b-container>
   </div>
@@ -14,6 +14,12 @@
   text-align: center;
   color: #2c3e50;
   margin-top: 20px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 </style>

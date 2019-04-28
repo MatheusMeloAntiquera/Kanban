@@ -12,12 +12,12 @@ Vue.use(BootstrapVue);
 
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faPen, faWindowClose } from '@fortawesome/free-solid-svg-icons';
+import { faPen, faWindowClose, faAlignJustify, faAlignLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-library.add(faPen, faWindowClose );
+library.add(faPen, faWindowClose, faAlignJustify, faAlignLeft );
 
-Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.config.productionTip = false;
 
